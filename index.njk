@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+pageTitle: Archive
+---
+
+<div class="container text-center">
+  <p class="font-serif text-grey text-2xl md:text-3xl lg:text-4xl">
+    <span class="text-grey-dark text-3xl">„</span>Romani ite domum<span class="text-grey-dark text-3xl">”</span>
+  </p>
+</div>
+
+{% for post in collections.posts %}
+  <div class="py-6 font-sans">
+    <h2 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">
+      <a class="text-teal" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+    </h2>
+    <p class="text-sm md:text-base font-normal text-grey-dark">{{ post.data.publishedDate }}</em>
+  </div>
+{% endfor %}

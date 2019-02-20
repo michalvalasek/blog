@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Binary Barbarian</title>
+    <meta name="author" content="name">
+    <meta name="description" content="Michal Valasek's blog">
+    <meta name="keywords" content="web,development,ruby,rails,javascript">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-grey-lightest font-sans leading-normal tracking-normal">
+
+<nav id="header" class="fixed w-full z-10 pin-t">
+
+  <div id="progress" class="h-1 z-20 pin-t" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+    <div class="w-full md:max-w-md mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
+
+      <div class="pl-4">
+        <a class="text-black text-base no-underline hover:no-underline font-extrabold text-xl"  href="/">
+          Binary Barbarian
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!--Container-->
+  <div class="container w-full md:max-w-md mx-auto pt-20">
+    <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal" style="font-family:Georgia,serif;">
+
+      {{ content | safe }}
+
+    </div>
+  </div>
+  <!--/container-->
+
+  <footer class="bg-white border-t border-grey-light shadow">
+    <div class="container max-w-md mx-auto flex py-8">
+
+      <div class="w-full mx-auto flex flex-wrap">
+        <div class="flex w-full md:w-2/3 ">
+          <div class="px-8">
+            <div class="flex-1">
+              <div class="flex flex-row items-center mb-2">
+                <img class="w-10 h-10 rounded-full mr-4" src="https://www.gravatar.com/avatar/da002d4de2dc00e4676001d0d398644f" alt="Avatar of Author">
+                <p class="text-base font-bold text-base md:text-xl leading-none">Michal Valášek</p>
+              </div>
+              <p class="text-grey-dark text-xs md:text-base">Remoting web developer armed with Ruby as the main weapon but Javascript, Elixir, Python and Clojure close at hand. Always learning, father of two, living in Piestany ❤️. Loves good coffee after wakeup and pilsner after good run. Boards 4ever 🛹.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex w-full md:w-1/3">
+          <div class="px-8">
+          <h3 class="font-bold text-black">Links</h3>
+            <ul class="list-reset items-center text-sm pt-3">
+              <li>
+              <a class="inline-block text-teal no-underline hover:text-black hover:text-underline py-1" href="http://michalvalasek.com">Home page</a>
+              </li>
+              <li>
+              <a class="inline-block text-teal no-underline hover:text-black hover:text-underline py-1" href="https://ruby.social/@fuji">Mastodon</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  /* Progress bar */
+  //Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+  var h = document.documentElement,
+      b = document.body,
+      st = 'scrollTop',
+      sh = 'scrollHeight',
+      progress = document.querySelector('#progress'),
+      scroll;
+  var scrollpos = window.scrollY;
+  var header = document.getElementById("header");
+  var navcontent = document.getElementById("nav-content");
+
+  document.addEventListener('scroll', function() {
+    /*Refresh scroll % width*/
+    scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+    progress.style.setProperty('--scroll', scroll + '%');
+
+    /*Apply classes for slide in bar*/
+    scrollpos = window.scrollY;
+
+    if (scrollpos > 10) {
+      header.classList.add("bg-white");
+      header.classList.add("shadow");
+      navcontent.classList.remove("bg-grey-lightest");
+      navcontent.classList.add("bg-white");
+    }
+    else {
+      header.classList.remove("bg-white");
+      header.classList.remove("shadow");
+      navcontent.classList.remove("bg-white");
+      navcontent.classList.add("bg-grey-lightest");
+    }
+  });
+</script>
+
+</body>
+</html>
