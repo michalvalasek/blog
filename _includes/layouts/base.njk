@@ -10,6 +10,11 @@
     <meta name="description" content="Michal Valasek's blog">
     <meta name="keywords" content="web,development,ruby,rails,javascript">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    {% set css %}
+      {% include "css/main.css" %}
+      {% include "css/prism-ghcolors.css" %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
 </head>
 <body class="bg-grey-lightest font-sans leading-normal tracking-normal">
 
@@ -81,7 +86,6 @@
       scroll;
   var scrollpos = window.scrollY;
   var header = document.getElementById("header");
-  var navcontent = document.getElementById("nav-content");
 
   document.addEventListener('scroll', function() {
     /*Refresh scroll % width*/
@@ -94,14 +98,10 @@
     if (scrollpos > 10) {
       header.classList.add("bg-white");
       header.classList.add("shadow");
-      navcontent.classList.remove("bg-grey-lightest");
-      navcontent.classList.add("bg-white");
     }
     else {
       header.classList.remove("bg-white");
       header.classList.remove("shadow");
-      navcontent.classList.remove("bg-white");
-      navcontent.classList.add("bg-grey-lightest");
     }
   });
 </script>
