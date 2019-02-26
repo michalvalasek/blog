@@ -171,4 +171,6 @@ If you look into the `posts` table in your database you'll see that the comments
 
 So to recap: this is a nice and simple way to store embedded collections in a JSONB field while keeping rails goodies like validations, casting, etc. All plumbing like form helpers also work as you're used to. All you really need is a JSONB field, serializer and a lightweight non-AR model.
 
+You can see the complete source code of a working demo project on my GitHub: [michalvalasek/rails_jsonb_collections](https://github.com/michalvalasek/rails_jsonb_collections)
+
 Have an idea on how to improve this? Let me know!
