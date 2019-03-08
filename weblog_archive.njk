@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+pageTitle: Weblog Archive - Binary Barbarian
+topTitle: Weblog Archive
+---
+<div class="container w-full md:max-w-md mx-auto pt-20">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal">
+    <div class="font-sans">
+      <span class="text-base md:text-sm text-teal font-bold">&lt;<span> <a href="/" class="text-base md:text-sm text-teal font-bold no-underline hover:underline">BACK TO HOME</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container w-full md:max-w-md mx-auto mt-6">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal"">
+    {% set entries = weblog %}
+    {% include "weblog_entries_list.njk" %}
+  </div>
+</div>

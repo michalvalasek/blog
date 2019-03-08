@@ -14,18 +14,12 @@ pageTitle: Binary Barbarian
   </div>
 </div>
 
-<div class="container w-full md:max-w-md mx-auto">
+<div class="container w-full md:max-w-md mx-auto mb-2">
   <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal"">
     <h3 class="mb-2 text-xl">Web Log</h3>
     {% set entries = weblog | head(-10) %}
-    {% for entry in entries %}
-    <div class="pb-6 text-sm text-grey-darkest">
-      <span class="text-grey-dark">{{ entry.date }}:</span>
-      <a class="text-teal" href="{{ entry.url }}">{{ entry.title }}</a>
-      {%- if entry.comment -%}
-        <br>{{ entry.comment | md | safe }}
-      {%- endif -%}
-    </div>
-    {% endfor %}
+    {% include "weblog_entries_list.njk" %}
+
+    <p class="text-base text-right"><a href="/weblog_archive" class="text-teal">Web log archive</a></p>
   </div>
 </div>
