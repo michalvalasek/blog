@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+pageTitle: Archive
+---
+<div class="container w-full md:max-w-md mx-auto pt-20">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal" style="font-family:Georgia,serif;">
+    <h2>Archive<span class="text-grey-dark text-3xl"></h2>
+  </div>
+</div>
+
+<div class="container w-full md:max-w-md mx-auto">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal" style="font-family:Georgia,serif;">
+    {% set posts = collections.posts | head(-10) | reverse %}
+    {% for post in posts %}
+      <div class="pb-6 font-sans">
+        <h4 class="font-sans break-normal text-black pt-6 pb-2">
+          <a class="text-teal" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+        </h4>
+        <p class="text-sm md:text-base font-normal text-grey-dark">{{ post.data.publishedDate }}</em>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,17 +1,21 @@
 ---
 layout: layouts/base.njk
 ---
-<!--Title-->
-<div class="font-sans">
-  <span class="text-base md:text-sm text-teal font-bold">&lt;<span> <a href="/" class="text-base md:text-sm text-teal font-bold no-underline hover:underline">BACK TO BLOG</a></p>
-  <h1 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">{{pageTitle}}</h1>
-  <p class="text-sm md:text-base font-normal text-grey-dark">Published {{ publishedDate }}</p>
+<div class="container w-full md:max-w-md mx-auto pt-20">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal" style="font-family:Georgia,serif;">
+    <!--Title-->
+    <div class="font-sans">
+      <span class="text-base md:text-sm text-teal font-bold">&lt;<span> <a href="/" class="text-base md:text-sm text-teal font-bold no-underline hover:underline">BACK TO BLOG</a></p>
+      <h1 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">{{pageTitle}}</h1>
+      <p class="text-sm md:text-base font-normal text-grey-dark">Published {{ publishedDate }}</p>
+    </div>
+
+    <!--Post Content-->
+
+    <div class="post-content py-6">
+      {{ content | safe }}
+    </div>
+
+    <!--/ Post Content-->
+  </div>
 </div>
-
-<!--Post Content-->
-
-<div class="post-content py-6">
-  {{ content | safe }}
-</div>
-
-<!--/ Post Content-->

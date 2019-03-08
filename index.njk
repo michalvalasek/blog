@@ -1,19 +1,31 @@
 ---
 layout: layouts/base.njk
-pageTitle: Archive
+pageTitle: Binary Barbarian
 ---
 
-<div class="container text-center">
-  <p class="font-serif text-grey text-2xl md:text-3xl lg:text-4xl">
-    <span class="text-grey-dark text-3xl">„</span>Romani ite domum<span class="text-grey-dark text-3xl">”</span>
-  </p>
+<div class="container w-full md:max-w-md mx-auto mt-20 mb-5 px-2">
+  <div class="w-full p-2 md:px-4 text-grey-darkest text-base bg-white border shadow rounded">
+    <h3 class="">My Latest Article:</h3>
+    {% set posts = collections.posts | head(-1) | reverse %}
+    {% for post in posts %}
+      <a class="text-teal" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+    {% endfor %}
+    <p class="text-right font-grey text-sm">Read all my posts in <a href="/archive" class="text-teal">Archive</a></p>
+  </div>
 </div>
 
-{% for post in collections.posts %}
-  <div class="py-6 font-sans">
-    <h2 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">
-      <a class="text-teal" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
-    </h2>
-    <p class="text-sm md:text-base font-normal text-grey-dark">{{ post.data.publishedDate }}</em>
+<div class="container w-full md:max-w-md mx-auto">
+  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal"">
+    <h3 class="mb-2 text-xl">Web Log</h3>
+    {% set entries = weblog | head(-10) %}
+    {% for entry in entries %}
+    <div class="pb-6 text-sm text-grey-darkest">
+      <span class="text-grey-dark">{{ entry.date }}:</span>
+      <a class="text-teal" href="{{ entry.url }}">{{ entry.title }}</a>
+      {%- if entry.comment -%}
+        <br>{{ entry.comment | md | safe }}
+      {%- endif -%}
+    </div>
+    {% endfor %}
   </div>
-{% endfor %}
+</div>
