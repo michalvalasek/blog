@@ -2,8 +2,7 @@
   {
     "date": "2018-02-08",
     "title": "Why I believe Rails is still relevant in 2019",
-    "url": "https://devbrett.com/2019/03/why-i-believe-rails-is-still-relevant-in-2019.html",
-    "comment": "Very true"
+    "url": "https://devbrett.com/2019/03/why-i-believe-rails-is-still-relevant-in-2019.html"
   },
   {
     "date": "2018-02-08",
@@ -13,8 +12,8 @@
   },
   {
     "date": "2018-02-08",
-    "title": "Why I believe Rails is still relevant in 2019",
-    "url": "https://devbrett.com/2019/03/why-i-believe-rails-is-still-relevant-in-2019.html",
-    "comment": "Very true"
+    "title": "Value Objects in Ruby",
+    "url": "https://dev.to/updated_tos/value-objects-in-ruby-13p",
+    "comment": "Simple intro to ruby value objects. Also read comments too!"
   }
 ]
