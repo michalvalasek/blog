@@ -1,23 +1,29 @@
 [
   {
+    "date": "2018-03-12",
+    "title": "How I Emacs And So Can You",
+    "url": "https://dev.to/deciduously/how-i-emacs-and-so-can-you-4434",
+    "comment": "Great practical intro guide to Emacs."
+  },
+  {
     "date": "2018-03-11",
     "title": "Ten Ways to Secure your Applications",
     "url": "https://blog.heroku.com/ten-ways-to-secure-your-apps",
     "comment": "List of areas you should focus your attention to when securing your web app plus suggestions on what to do/use."
   },
   {
-    "date": "2018-02-08",
+    "date": "2018-03-08",
     "title": "Why I believe Rails is still relevant in 2019",
     "url": "https://devbrett.com/2019/03/why-i-believe-rails-is-still-relevant-in-2019.html"
   },
   {
-    "date": "2018-02-08",
+    "date": "2018-03-08",
     "title": "Why don’t we validate controller parameters?",
     "url": "https://frontdeveloper.pl/2019/03/why-dont-we-validate-controller-parameters/",
     "comment": "about controller params validation & how to use `apipie-rails` gem for this purpose."
   },
   {
-    "date": "2018-02-08",
+    "date": "2018-03-08",
     "title": "Value Objects in Ruby",
     "url": "https://dev.to/updated_tos/value-objects-in-ruby-13p",
     "comment": "Simple intro to ruby value objects. Also read comments too!"
