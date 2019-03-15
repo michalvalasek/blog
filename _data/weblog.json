@@ -1,5 +1,17 @@
 [
   {
+    "date": "2019-03-15",
+    "title": "Redis Pub/Sub... How Does it Work?",
+    "url": "https://thoughtbot.com/blog/redis-pub-sub-how-does-it-work",
+    "comment": "Old article but I think it still holds up as an intro to using ruby for Redis Pub/Sub messaging. Good to know if your're using something like Rails' ActionCable. Also, the example is much fun to play with."
+  },
+  {
+    "date": "2018-03-13",
+    "title": "Introduction to Roda",
+    "url": "https://twin.github.io/introduction-to-roda/",
+    "comment": "Excellent intro to the minimalist and innovative web framework *Roda*."
+  },
+  {
     "date": "2018-03-12",
     "title": "How I Emacs And So Can You",
     "url": "https://dev.to/deciduously/how-i-emacs-and-so-can-you-4434",
