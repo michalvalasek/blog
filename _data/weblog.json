@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-03-20",
+    "title": "Enumerating over large datasets in Ruby",
+    "url": "http://wjwh.eu/posts/2019-03-18-database-enumerable.html",
+    "comment": "On point quick guide on how to (more) efficiently iterate through large datasets with ruby and ActiveRecord, Redis, S3 buckets and even files."
+  },
+  {
     "date": "2019-03-15",
     "title": "Redis Pub/Sub... How Does it Work?",
     "url": "https://thoughtbot.com/blog/redis-pub-sub-how-does-it-work",
