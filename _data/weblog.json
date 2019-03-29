@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-03-29",
+    "title": "ActiveRecord Extended",
+    "url": "https://github.com/georgekaraszi/ActiveRecordExtended",
+    "comment": "Very interesting gem that let's you use many of the more advanced PostgreSQL features with your ActiveRecord models."
+  },
+  {
     "date": "2019-03-20",
     "title": "Enumerating over large datasets in Ruby",
     "url": "http://wjwh.eu/posts/2019-03-18-database-enumerable.html",
