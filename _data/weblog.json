@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-04-01",
+    "title": "How to Access Production Data in Rails Migrations",
+    "url": "https://www.gregnavis.com/articles/how-to-access-production-data-in-rails-migrations.html",
+    "comment": "Nice trick for sane data migrations - inside the migration class define migration models that override the real models and thus prevent problems with callbacks, validations, model changes, etc."
+  },
+  {
     "date": "2019-03-29",
     "title": "ActiveRecord Extended",
     "url": "https://github.com/georgekaraszi/ActiveRecordExtended",
