@@ -1,5 +1,17 @@
 [
   {
+    "date": "2019-04-23",
+    "title": "Chris McCord Keynote: Phoenix LiveView",
+    "url": "https://www.youtube.com/watch?v=8xJzHq8ru0M",
+    "comment": "[VIDEO] Interactive, Real TIme Apps - No need to write Javascript. Really awesome technology, now out in the public for everyone to try."
+  },
+  {
+    "date": "2019-04-21",
+    "title": "The Mess We're In",
+    "url": "https://www.youtube.com/watch?v=lKXe3HUG2l4",
+    "comment": "[VIDEO] Very fun and thought provoking talk by late Joe Armstrong, inventor of Erlang, who passed away just yesterday."
+  },
+  {
     "date": "2019-04-08",
     "title": "How BioWare's Anthem Went Wrong",
     "url": "https://kotaku.com/how-biowares-anthem-went-wrong-1833731964",
