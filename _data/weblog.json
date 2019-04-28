@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-04-28",
+    "title": "Graphiti",
+    "url": "https://www.graphiti.dev/guides/",
+    "comment": "Ruby library that pushes REST APIs towords GraphQL. Very interesting, watch at least the video presentation."
+  },
+  {
     "date": "2019-04-23",
     "title": "Chris McCord Keynote: Phoenix LiveView",
     "url": "https://www.youtube.com/watch?v=8xJzHq8ru0M",
