@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-04-29",
+    "title": "Ruby is the Best Javascript",
+    "url": "https://www.youtube.com/watch?v=datDkio1AXM",
+    "comment": "[VIDEO] Funny talk about how to turn Ruby into Javascript (i.e. write valid ruby code with JS syntax) which shows the power of metaprogramming in Ruby. By Kevin Kuchta on RubyConf 2018."
+  },
+  {
     "date": "2019-04-28",
     "title": "Graphiti",
     "url": "https://www.graphiti.dev/guides/",
