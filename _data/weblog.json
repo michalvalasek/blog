@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-04-30",
+    "title": "Ruby's Hidden Gems: Delegator and Forwardable",
+    "url": "https://blog.appsignal.com/2019/04/30/ruby-magic-hidden-gems-delegator-forwardable.html",
+    "comment": "All the ways you can delegate method calls in ruby. Nice summary."
+  },
+  {
     "date": "2019-04-29",
     "title": "Ruby is the Best Javascript",
     "url": "https://www.youtube.com/watch?v=datDkio1AXM",
