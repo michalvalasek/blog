@@ -1,5 +1,29 @@
 [
   {
+    "date": "2019-05-03",
+    "title": "Using custom objects in Ruby Ranges",
+    "url": "https://www.mesomorphic.co.uk/blog/2019/04/30/ranges-in-ruby/",
+    "comment": "Custom ranges are quite easy to create as you learn from this article."
+  },
+  {
+    "date": "2019-05-03",
+    "title": "How to use Bootstrap with Webpack & Rails",
+    "url": "https://gorails.com/episodes/how-to-use-bootstrap-with-webpack-and-rails",
+    "comment": "[VIDEO] Brace yourselves, Rails 6 is coming!  Finally a nice short intro guide on how to use webpacker for JS and CSS instead of the Asset Pipeline."
+  },
+  {
+    "date": "2019-05-03",
+    "title": "Disassembling Rails — Template Rendering (2)",
+    "url": "https://medium.com/rubyinside/disassembling-rails-template-rendering-2-a99214c6fde8",
+    "comment": "Have you ever wondered how does the rendering in Rails work? And did you know that Rails compiles the templates into methods? Nice example of ruby metaprogramming and aood thing to know as a Rails developer."
+  },
+  {
+    "date": "2019-05-02",
+    "title": "Article Gatherer",
+    "url": "https://github.com/michalvalasek/article-gatherer",
+    "comment": "Using he FaastRuby platform I built a little lambda function that runs every night, looks for new articles on my favourite blogs and if it finds any it sends me an email with links."
+  },
+  {
     "date": "2019-04-30",
     "title": "Ruby's Hidden Gems: Delegator and Forwardable",
     "url": "https://blog.appsignal.com/2019/04/30/ruby-magic-hidden-gems-delegator-forwardable.html",
