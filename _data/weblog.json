@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-05-04",
+    "title": "The Lifecycle of a Request",
+    "url": "https://blog.skylight.io/the-lifecycle-of-a-request/",
+    "comment": "In depth journey throught the whole stack from the browser to the Rails controller action, through DNS, webserver, Rack stack to the app itself. Excellent long read for ruby web developers."
+  },
+  {
     "date": "2019-05-03",
     "title": "Using custom objects in Ruby Ranges",
     "url": "https://www.mesomorphic.co.uk/blog/2019/04/30/ranges-in-ruby/",
