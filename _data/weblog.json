@@ -1,9 +1,27 @@
 [
   {
+    "date": "2019-05-10",
+    "title": " Nested Forms from Scratch with StimulusJS",
+    "url": "https://www.driftingruby.com/episodes/nested-forms-from-scratch-with-stimulusjs",
+    "comment": "*[VIDEO]* How to make nested forms (Cocoon style) from scratch with Stimulus and Rails."
+  },
+  {
+    "date": "2019-05-10",
+    "title": "RailsPanel for Chrome",
+    "url": "https://github.com/dejan/rails_panel",
+    "comment": "_RailsPanel is a Chrome extension for Rails development that will end your tailing of development.log. Have all information about your Rails app requests in the browser - in the Developer Tools panel. Provides insight to db/rendering/total times, parameter list, rendered views and more._ I'm apparently the last person on the planet who did not know about this great extension :)"
+  },
+  {
+    "date": "2019-05-09",
+    "title": "What does GIL really guarantee you?",
+    "url": "https://www.youtube.com/watch?v=1nNfTWHF2YY",
+    "comment": "*[VIDEO]* Talk by Daniel Vartanov from RubyConf 2017."
+  },
+  {
     "date": "2019-05-04",
     "title": "The Lifecycle of a Request",
     "url": "https://blog.skylight.io/the-lifecycle-of-a-request/",
-    "comment": "In depth journey throught the whole stack from the browser to the Rails controller action, through DNS, webserver, Rack stack to the app itself. Excellent long read for ruby web developers."
+    "comment": "In depth journey through the whole stack from the browser to the Rails controller action, through DNS, webserver, Rack stack to the app itself. Excellent long read for ruby web developers."
   },
   {
     "date": "2019-05-03",
@@ -15,7 +33,7 @@
     "date": "2019-05-03",
     "title": "How to use Bootstrap with Webpack & Rails",
     "url": "https://gorails.com/episodes/how-to-use-bootstrap-with-webpack-and-rails",
-    "comment": "[VIDEO] Brace yourselves, Rails 6 is coming!  Finally a nice short intro guide on how to use webpacker for JS and CSS instead of the Asset Pipeline."
+    "comment": "*[VIDEO]* Brace yourselves, Rails 6 is coming!  Finally a nice short intro guide on how to use webpacker for JS and CSS instead of the Asset Pipeline."
   },
   {
     "date": "2019-05-03",
@@ -39,7 +57,7 @@
     "date": "2019-04-29",
     "title": "Ruby is the Best Javascript",
     "url": "https://www.youtube.com/watch?v=datDkio1AXM",
-    "comment": "[VIDEO] Funny talk about how to turn Ruby into Javascript (i.e. write valid ruby code with JS syntax) which shows the power of metaprogramming in Ruby. By Kevin Kuchta on RubyConf 2018."
+    "comment": "*[VIDEO]* Funny talk about how to turn Ruby into Javascript (i.e. write valid ruby code with JS syntax) which shows the power of metaprogramming in Ruby. By Kevin Kuchta on RubyConf 2018."
   },
   {
     "date": "2019-04-28",
@@ -51,13 +69,13 @@
     "date": "2019-04-23",
     "title": "Chris McCord Keynote: Phoenix LiveView",
     "url": "https://www.youtube.com/watch?v=8xJzHq8ru0M",
-    "comment": "[VIDEO] Interactive, Real TIme Apps - No need to write Javascript. Really awesome technology, now out in the public for everyone to try."
+    "comment": "*[VIDEO]* Interactive, Real TIme Apps - No need to write Javascript. Really awesome technology, now out in the public for everyone to try."
   },
   {
     "date": "2019-04-21",
     "title": "The Mess We're In",
     "url": "https://www.youtube.com/watch?v=lKXe3HUG2l4",
-    "comment": "[VIDEO] Very fun and thought provoking talk by late Joe Armstrong, inventor of Erlang, who passed away just yesterday."
+    "comment": "*[VIDEO]* Very fun and thought provoking talk by late Joe Armstrong, inventor of Erlang, who passed away just yesterday."
   },
   {
     "date": "2019-04-08",
