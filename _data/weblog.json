@@ -1,5 +1,17 @@
 [
   {
+    "date": "2019-05-13",
+    "title": "Elixir: Building a Small JSON Endpoint With Plug, Cowboy and Poison",
+    "url": "https://dev.to/jonlunsford/elixir-building-a-small-json-endpoint-with-plug-cowboy-and-poison-1826",
+    "comment": ""
+  },
+  {
+    "date": "2019-05-12",
+    "title": "Real-time object detection with deep learning and OpenCV",
+    "url": "https://www.pyimagesearch.com/2017/09/18/real-time-object-detection-with-deep-learning-and-opencv/",
+    "comment": "Fun short tutorial for object detection in python using your laptop's camera."
+  },
+  {
     "date": "2019-05-10",
     "title": " Nested Forms from Scratch with StimulusJS",
     "url": "https://www.driftingruby.com/episodes/nested-forms-from-scratch-with-stimulusjs",
