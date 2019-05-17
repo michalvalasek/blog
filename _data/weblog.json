@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-05-16",
+    "title": "Fibers Are the Right Solution",
+    "url": "https://www.youtube.com/watch?v=qKQcUDEo-ZI",
+    "comment": "*[VIDEO]* Samuel Williams' talk from this year's Ruby Kaigi about troubles wiht concurency & paralelism in ruby and how to solve it with the means we currently have (fibers) - at least in web develompen."
+  },
+  {
     "date": "2019-05-13",
     "title": "Elixir: Building a Small JSON Endpoint With Plug, Cowboy and Poison",
     "url": "https://dev.to/jonlunsford/elixir-building-a-small-json-endpoint-with-plug-cowboy-and-poison-1826",
