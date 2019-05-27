@@ -1,9 +1,21 @@
 [
   {
+    "date": "2019-05-27",
+    "title": "Small Functions considered Harmful",
+    "url": "https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29",
+    "comment": "Long and deep reflection on the DRY and small-functions design principles. Why it's not always the case that small functions means good code. Judging by the subsequent discussion the article hit a nerve in the community."
+  },
+  {
+    "date": "2019-05-26",
+    "title": "A Case For Use Cases",
+    "url": "https://webuild.envato.com/blog/a-case-for-use-cases/",
+    "comment": "Another aproach to the interactor/command pattern also discussing practical side of using it."
+  },
+  {
     "date": "2019-05-16",
     "title": "Fibers Are the Right Solution",
     "url": "https://www.youtube.com/watch?v=qKQcUDEo-ZI",
-    "comment": "*[VIDEO]* Samuel Williams' talk from this year's Ruby Kaigi about troubles wiht concurency & paralelism in ruby and how to solve it with the means we currently have (fibers) - at least in web develompen."
+    "comment": "*[VIDEO]* Samuel Williams' talk from this year's Ruby Kaigi about troubles wiht concurency & paralelism in ruby and how to solve it with the means we currently have (fibers) - at least in web develompent."
   },
   {
     "date": "2019-05-13",
