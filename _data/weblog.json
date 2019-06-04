@@ -1,9 +1,21 @@
 [
   {
     "date": "2019-06-04",
+    "title": "AWS Lambda + Ruby = Podcast",
+    "url": "http://dustinzeisler.com/ruby/2019/05/31/aws-lambda-podcast-in-ruby.html",
+    "comment": "Tutorial on how to build a podcast feed with ruby and AWS lambda. You'll write a lambda function that will re-generate your podcast feed everytime you upload a new episode to your S3 bucket."
+  },
+  {
+    "date": "2019-06-04",
     "title": "Reorganizing your (Phoenix) Contexts as Use Cases",
     "url": "https://luizdamim.com/blog/reorganizing-your-phoenix-contexts-as-use-cases/",
     "comment": "How to use the Command/Interactor pattern in Elixir wtih Ecto.Multi and Phoenix contexts."
+  },
+  {
+    "date": "2019-06-03",
+    "title": "Serverless Ruby on AWS Lambda with the Jets framework",
+    "url": "https://www.twilio.com/blog/serverless-ruby-on-aws-lambda-with-the-jets-framework",
+    "comment": "Practical intro to the Jets framework that allows you to build AWS lambda functions with Ruby in Rails-like way."
   },
   {
     "date": "2019-06-02",
