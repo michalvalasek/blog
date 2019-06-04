@@ -1,5 +1,17 @@
 [
   {
+    "date": "2019-06-04",
+    "title": "Reorganizing your (Phoenix) Contexts as Use Cases",
+    "url": "https://luizdamim.com/blog/reorganizing-your-phoenix-contexts-as-use-cases/",
+    "comment": "How to use the Command/Interactor pattern in Elixir wtih Ecto.Multi and Phoenix contexts."
+  },
+  {
+    "date": "2019-06-02",
+    "title": "Elixir and The Beam: How Concurrency Really Works",
+    "url": "https://medium.com/flatiron-labs/elixir-and-the-beam-how-concurrency-really-works-3cc151cddd61",
+    "comment": ""
+  },
+  {
     "date": "2019-05-27",
     "title": "Small Functions considered Harmful",
     "url": "https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29",
