@@ -1,6 +1,24 @@
 [
   {
     "date": "2019-06-04",
+    "title": "Understanding Transducers in Ruby",
+    "url": "https://medium.com/@baweaver/understanding-transducers-in-ruby-209766372c39",
+    "comment": ""
+  },
+  {
+    "date": "2019-06-05",
+    "title": "Ruby 2.7 — Enumerable#tally",
+    "url": "https://dev.to/baweaver/ruby-2-7-enumerable-tally-3b02",
+    "comment": "First look at the new `Enumerable#tally` method. Useful for counting occurencies."
+  },
+  {
+    "date": "2019-06-04",
+    "title": "Ruby 2.7 — Pattern Matching — Destructuring on Point",
+    "url": "https://dev.to/baweaver/ruby-2-7-pattern-matching-destructuring-on-point-3hdb",
+    "comment": "Playing with the upcoming Ruby pattern matching/destructuring and a look into some potential usecases for it."
+  },
+  {
+    "date": "2019-06-04",
     "title": "Refactoring Live: Primitive Obsession",
     "url": "https://www.youtube.com/watch?v=LhX5COR8WXc&list=WL&index=5&t=0s",
     "comment": "*[VIDEO]* Really excellent hands-on talk on refactoring with live examples. By James Dabbs, from RailsConf 2019."
@@ -9,13 +27,13 @@
     "date": "2019-06-04",
     "title": "inject vs each_with_object",
     "url": "https://blog.arkency.com/inject-vs-each-with-object/",
-    "comment": "`When to use inject` (reduce) and when `each_with_object` in ruby?"
+    "comment": "When to use `inject` (reduce) and when `each_with_object` in ruby?"
   },
   {
     "date": "2019-06-04",
     "title": "Refactoring with Hash Defaults",
     "url": "http://dustinzeisler.com/refactoring/2017/11/10/refactor-with-hash-default.html",
-    "comment": ""
+    "comment": "Did you know all the ways you can make a ruby hash have a default value?"
   },
   {
     "date": "2019-06-04",
