@@ -1,6 +1,24 @@
 [
   {
     "date": "2019-06-04",
+    "title": "Refactoring Live: Primitive Obsession",
+    "url": "https://www.youtube.com/watch?v=LhX5COR8WXc&list=WL&index=5&t=0s",
+    "comment": "*[VIDEO]* Really excellent hands-on talk on refactoring with live examples. By James Dabbs, from RailsConf 2019."
+  },
+  {
+    "date": "2019-06-04",
+    "title": "inject vs each_with_object",
+    "url": "https://blog.arkency.com/inject-vs-each-with-object/",
+    "comment": "`When to use inject` (reduce) and when `each_with_object` in ruby?"
+  },
+  {
+    "date": "2019-06-04",
+    "title": "Refactoring with Hash Defaults",
+    "url": "http://dustinzeisler.com/refactoring/2017/11/10/refactor-with-hash-default.html",
+    "comment": ""
+  },
+  {
+    "date": "2019-06-04",
     "title": "AWS Lambda + Ruby = Podcast",
     "url": "http://dustinzeisler.com/ruby/2019/05/31/aws-lambda-podcast-in-ruby.html",
     "comment": "Tutorial on how to build a podcast feed with ruby and AWS lambda. You'll write a lambda function that will re-generate your podcast feed everytime you upload a new episode to your S3 bucket."
