@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-07-16",
+    "title": "DDD and relational databases – the value object dilemma",
+    "url": "https://gojko.net/2009/09/30/ddd-and-relational-databases-the-value-object-dilemma/",
+    "comment": ""
+  },
+  {
     "date": "2019-06-04",
     "title": "Understanding Transducers in Ruby",
     "url": "https://medium.com/@baweaver/understanding-transducers-in-ruby-209766372c39",
