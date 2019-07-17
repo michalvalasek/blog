@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-07-17",
+    "title": "Ruby on Rails - Bounded contexts via interface objects",
+    "url": "https://blog.eq8.eu/article/rails-bounded-contexts.html",
+    "comment": ""
+  },
+  {
     "date": "2019-07-16",
     "title": "DDD and relational databases – the value object dilemma",
     "url": "https://gojko.net/2009/09/30/ddd-and-relational-databases-the-value-object-dilemma/",
