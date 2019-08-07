@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-08-07",
+    "title": "Are you really ready for serverless?",
+    "url": "http://blog.testdouble.com/posts/2019-08-06-are-you-really-ready-for-serverless.html",
+    "comment": ""
+  },
+  {
     "date": "2019-08-02",
     "title": "3 Defensive Programming Techniques for Rails",
     "url": "https://www.firehydrant.io/blog/3-defensive-programming-techniques-for-rails/",
