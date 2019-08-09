@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-08-09",
+    "title": "How to Use The Ruby Uniq Method To Remove Duplicates",
+    "url": "https://www.rubyguides.com/2019/08/ruby-uniq-method/",
+    "comment": "Did you know the `uniq` method also accepts blocks?"
+  },
+  {
     "date": "2019-08-07",
     "title": "Are you really ready for serverless?",
     "url": "http://blog.testdouble.com/posts/2019-08-06-are-you-really-ready-for-serverless.html",
