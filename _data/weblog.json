@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-08-13",
+    "title": "Self Improvement",
+    "url": "https://idiosyncratic-ruby.com/8-self-improvement.html",
+    "comment": "Ruby: when to use `extend self` vs. `module_function` in your modules."
+  },
+  {
     "date": "2019-08-09",
     "title": "How to Use The Ruby Uniq Method To Remove Duplicates",
     "url": "https://www.rubyguides.com/2019/08/ruby-uniq-method/",
