@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-10-17",
+    "title": "Vim-style movement (and more) in Sublime Text 3",
+    "url": "https://coderwall.com/p/rvekkq/vim-style-movement-and-more-in-sublime-text-3",
+    "comment": "Very good and brief guide to vim movement via custom key bindings in ST3."
+  },
+  {
     "date": "2019-09-26",
     "title": "Fail Fast and Fail Often: Handling API Errors at Scale",
     "url": "https://dev.to/akshaynathan/fail-fast-and-fail-often-handling-api-errors-at-scale-17mb",
