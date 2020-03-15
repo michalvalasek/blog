@@ -1,5 +1,29 @@
 [
   {
+    "date": "2020-03-15",
+    "title": "What's an ACID compliant database?",
+    "url": "https://retool.com/blog/whats-an-acid-compliant-database/",
+    "comment": ""
+  },
+  {
+    "date": "2020-03-15",
+    "title": "How to Perform Concurrent HTTP Requests in Ruby and Rails",
+    "url": "https://pawelurbanek.com/ruby-concurrent-requests",
+    "comment": "TL;DR: use Typhoeus::Hydra. Very good article. Read comments for other nice tips."
+  },
+  {
+    "date": "2020-03-15",
+    "title": "Exploring Big-O Notation With Ruby",
+    "url": "https://www.honeybadger.io/blog/big-o-notation-ruby/",
+    "comment": ""
+  },
+  {
+    "date": "2020-03-15",
+    "title": "How to pass arguments to methods in ruby and how it affects their arity",
+    "url": "https://blog.saeloun.com/2020/01/27/how-to-pass-arguments-to-methods-in-ruby-and-how-it-affects-the-arity.html",
+    "comment": "How the different types of method arguments work in ruby."
+  },
+  {
     "date": "2020-03-09",
     "title": "Error handling with Monads in Ruby",
     "url": "https://github.com/michalvalasek/blog.git",
