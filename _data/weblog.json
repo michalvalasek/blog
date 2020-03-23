@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-03-23",
+    "title": "Pretty CSV viewing on the Command Line",
+    "url": "https://www.stefaanlippens.net/pretty-csv.html",
+    "comment": "How to pretty print CSV files on the commandline using only the basic unix tools?"
+  },
+  {
     "date": "2020-03-22",
     "title": "Facade Pattern in Rails for Performance and Maintainability",
     "url": "https://blog.appsignal.com/2020/03/18/facade-pattern-in-rails-for-performance-and-maintainability.html",
