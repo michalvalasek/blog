@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-03-22",
+    "title": "Facade Pattern in Rails for Performance and Maintainability",
+    "url": "https://blog.appsignal.com/2020/03/18/facade-pattern-in-rails-for-performance-and-maintainability.html",
+    "comment": ""
+  },
+  {
     "date": "2020-03-15",
     "title": "What's an ACID compliant database?",
     "url": "https://retool.com/blog/whats-an-acid-compliant-database/",
