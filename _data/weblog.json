@@ -1,5 +1,17 @@
 [
   {
+    "date": "2020-05-04",
+    "title": "Why Rubyists Should Consider Learning Go",
+    "url": "https://www.honeybadger.io/blog/rubyist-learn-go/",
+    "comment": ""
+  },
+  {
+    "date": "2020-05-04",
+    "title": "Practical use of Ruby PStore",
+    "url": "https://blog.arkency.com/practical-use-of-ruby-pstore/",
+    "comment": "How to use ruby's built-in file based key-value store as a cache for your HTTP requests."
+  },
+  {
     "date": "2020-03-23",
     "title": "Pretty CSV viewing on the Command Line",
     "url": "https://www.stefaanlippens.net/pretty-csv.html",
