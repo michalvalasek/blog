@@ -1,5 +1,29 @@
 [
   {
+    "date": "2020-05-12",
+    "title": "Postgres Distinct On",
+    "url": "https://johnnunemaker.com/postgres-distinct-on/",
+    "comment": "Use Postgres' DISTINCT ON clause to get rid of N+1 in Rails."
+  },
+  {
+    "date": "2020-05-12",
+    "title": "Asynchronous HTTP requests in Rails",
+    "url": "https://remimercier.com/asynchronous-requests/",
+    "comment": "How to use Javascript's fetch() method in Rails for async fetch and insert partials."
+  },
+  {
+    "date": "2020-05-12",
+    "title": "5 Ways to Splat in Ruby",
+    "url": "https://hint.io/blog/5-ways-to-splat-in-ruby",
+    "comment": "Quick list of cool ways to use the *splat operator."
+  },
+  {
+    "date": "2020-05-11",
+    "title": "Predicting the Future With Linear Regression in Ruby",
+    "url": "https://www.honeybadger.io/blog/ruby-linear-regression/",
+    "comment": "Simple exlanation and an example of linear regression in ruby."
+  },
+  {
     "date": "2020-05-04",
     "title": "Why Rubyists Should Consider Learning Go",
     "url": "https://www.honeybadger.io/blog/rubyist-learn-go/",
