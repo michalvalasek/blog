@@ -1,13 +1,15 @@
 {% for entry in entries %}
-<div class="pb-6 text-sm text-grey-darkest">
-  <span class="text-grey-dark">{{ entry.date }}: </span>
-  {%- if entry.url -%}
-    <a class="text-teal" href="{{ entry.url }}">{{ entry.title }}</a>
-  {%- else -%}
-    <span class="text-teal">{{ entry.title }}</span>
-  {%- endif -%}
-  {%- if entry.comment -%}
-    <br>{{ entry.comment | md | safe }}
-  {%- endif -%}
+<div class="log-entry">
+    <div class="entry-date float-right">{{ entry.date }}</div>
+    <h3>
+      {%- if entry.url -%}
+        <a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a>
+      {%- else -%}
+        {{ entry.title }}
+      {%- endif -%}
+    </h3>
+    {%- if entry.comment -%}
+      <p class="comment">{{ entry.comment | md | safe }}</p>
+    {%- endif -%}
 </div>
 {% endfor %}

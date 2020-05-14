@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,95 +8,57 @@
     <meta name="author" content="name">
     <meta name="description" content="Michal Valasek's blog">
     <meta name="keywords" content="web,development,ruby,rails,javascript">
-    <link href="https://unpkg.com/tailwindcss@^0.7.4/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     {% set css %}
       {% include "css/main.css" %}
       {% include "css/prism-ghcolors.css" %}
     {% endset %}
     <style>{{ css | cssmin | safe }}</style>
 </head>
-<body class="bg-grey-lightest font-sans leading-normal tracking-normal">
+<body class="d-flex flex-column h-100">
 
-  <nav id="header" class="fixed w-full z-10 pin-t">
-    <div id="progress" class="h-1 z-20 pin-t" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
-
-    <div class="w-full md:max-w-md mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-
-      <div class="pl-4">
-        <a class="text-black text-base no-underline hover:no-underline font-extrabold text-xl"  href="/">
-          Binary Barbarian {% if topTitle -%} - {{ topTitle }}{% endif %}
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar flex-row justify-content-center">
+        <a href="/">
+            <img src="/images/logo.png" class="img-fluid" alt="Binary Barbarian" />
         </a>
+      </nav>
+    </header>
+
+    <main role="main" class="flex-shrink-0">
+      <div class="container">
+        {% if topTitle -%} <h1 class="top-title text-center">{{ topTitle }}</h1> {% endif %}
+
+        {{ content | safe }}
       </div>
-    </div>
-  </nav>
+    </main>
 
-  <!--Container-->
-  {{ content | safe }}
-  <!--/container-->
-
-  <footer class="bg-white border-t border-grey-light shadow">
-    <div class="container max-w-md mx-auto flex py-8">
-
-      <div class="w-full mx-auto flex flex-wrap">
-        <div class="flex w-full md:w-2/3 ">
-          <div class="px-8">
-            <div class="flex-1">
-              <div class="flex flex-row items-center mb-2">
-                <img class="w-10 h-10 rounded-full mr-4" src="https://www.gravatar.com/avatar/da002d4de2dc00e4676001d0d398644f" alt="Avatar of Author">
-                <p class="text-base font-bold text-base md:text-xl leading-none">Michal Valasek</p>
-              </div>
-              <p class="text-grey-dark text-xs md:text-base">Remoting software engineer @ <a href="https://www.leadfeeder.com" title="Leadfeeder">Leadfeeder</a> armed with Ruby as the main weapon but Python, Javascript, Elixir and Clojure close at hand. Always learning, father of two, living in Piestany ❤️. Loves good coffee in the morning and dewy pilsner after good run. Boards & ukes 4ever 🛹.</p>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <div class="row mb-3">
+            <div class="col-8 d-flex flex-row align-items-center">
+                <img class="rounded-circle mr-3" src="https://www.gravatar.com/avatar/da002d4de2dc00e4676001d0d398644f" alt="Avatar of Author" width="50" height="50">
+                <h4>Michal Valášek</h4>
             </div>
-          </div>
+            <div class="col-4 d-flex flex-column justify-content-center">
+                <h4>Links</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <p id="about-me">Remoting software engineer @ <a href="https://www.leadfeeder.com" title="Leadfeeder">Leadfeeder</a> armed with Ruby as the main weapon but Python, Javascript, Elixir and Clojure close at hand. Always learning, father of two, living in Piestany ❤️. Loves good coffee in the morning and dewy pilsner after good run. Boards & ukes 4ever 🛹.</p>
+            </div>
+            <div class="col-4">
+                <a href="http://michalvalasek.com" title="Home Page" class="footer-link">Home Page</a>
+                <a href="https://ruby.social/@fuji" title="Mastodon account" class="footer-link">Mastodon</a>
+            </div>
         </div>
 
-        <div class="flex w-full md:w-1/3">
-          <div class="px-8">
-          <h3 class="font-bold text-black">Links</h3>
-            <ul class="list-reset items-center text-sm pt-3">
-              <li>
-              <a class="inline-block text-teal no-underline hover:text-black hover:text-underline py-1" href="http://michalvalasek.com">Home page</a>
-              </li>
-              <li>
-              <a class="inline-block text-teal no-underline hover:text-black hover:text-underline py-1" href="https://ruby.social/@fuji">Mastodon</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-<script>
-  /* Progress bar */
-  //Source: https://alligator.io/js/progress-bar-javascript-css-variables/
-  var h = document.documentElement,
-      b = document.body,
-      st = 'scrollTop',
-      sh = 'scrollHeight',
-      progress = document.querySelector('#progress'),
-      scroll;
-  var scrollpos = window.scrollY;
-  var header = document.getElementById("header");
-
-  document.addEventListener('scroll', function() {
-    /*Refresh scroll % width*/
-    scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-    progress.style.setProperty('--scroll', scroll + '%');
-
-    /*Apply classes for slide in bar*/
-    scrollpos = window.scrollY;
-
-    if (scrollpos > 10) {
-      header.classList.add("bg-white");
-      header.classList.add("shadow");
-    }
-    else {
-      header.classList.remove("bg-white");
-      header.classList.remove("shadow");
-    }
-  });
-</script>
-<script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://lftracker.leadfeeder.com/lftracker_v1_bElvO73jZjM8ZMqj.js'); })(); </script>
+    <script>(function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://lftracker.leadfeeder.com/lftracker_v1_bElvO73jZjM8ZMqj.js'); })();</script>
 </body>
 </html>

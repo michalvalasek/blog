@@ -3,23 +3,20 @@ layout: layouts/base.njk
 pageTitle: Binary Barbarian
 ---
 
-<div class="container w-full md:max-w-md mx-auto mt-20 mb-5 px-2">
-  <div class="w-full p-2 md:px-4 text-grey-darkest text-base bg-white border shadow rounded">
-    <h3 class="">My Latest Article:</h3>
+<div class="top-article">
+    <h2 class="text-center">My Latest Article</h2>
     {% set posts = collections.posts | head(1) | reverse %}
     {% for post in posts %}
-      <a class="text-teal" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+      <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
     {% endfor %}
-    <p class="text-right font-grey text-sm">Read all my posts in <a href="/archive" class="text-teal">Archive</a></p>
-  </div>
+    <p class="text-right">Read all my posts in the <a href="/archive">Archive</a></p>
 </div>
 
-<div class="container w-full md:max-w-md mx-auto mb-2">
-  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal"">
-    <h3 class="mb-2 text-xl">Web Log</h3>
-    {% set entries = weblog | head(10) %}
-    {% include "weblog_entries_list.njk" %}
+<h2 class="text-center">Web Log</h2>
 
-    <p class="text-base text-right"><a href="/weblog_archive" class="text-teal">Web log archive</a></p>
-  </div>
+{% set entries = weblog | head(10) %}
+{% include "weblog_entries_list.njk" %}
+
+<div class="d-flex flex-row justify-content-center">
+    <a href="/weblog_archive" class="big-button">Web Log Archive &#8594;</a>
 </div>

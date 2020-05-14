@@ -1,21 +1,15 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="container w-full md:max-w-md mx-auto pt-20">
-  <div class="w-full px-4 md:px-6 text-xl text-grey-darkest leading-normal" style="font-family:Georgia,serif;">
-    <!--Title-->
-    <div class="font-sans">
-      <span class="text-base md:text-sm text-teal font-bold">&lt;<span> <a href="/" class="text-base md:text-sm text-teal font-bold no-underline hover:underline">BACK TO BLOG</a></p>
-      <h1 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">{{pageTitle}}</h1>
-      <p class="text-sm md:text-base font-normal text-grey-dark">Published {{ publishedDate }}</p>
-    </div>
 
-    <!--Post Content-->
+<h1 class="post-title">{{pageTitle}}</h1>
 
-    <div class="post-content py-6">
-      {{ content | safe }}
-    </div>
+<p class="text-right post-date">Published {{ publishedDate }}</p>
 
-    <!--/ Post Content-->
-  </div>
+{{ content | safe }}
+
+<br>
+
+<div class="d-flex flex-row justify-content-center">
+    <a href="/" class="small-button">&#8592; Back to Archive</a>
 </div>
