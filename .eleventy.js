@@ -5,6 +5,8 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  eleventyConfig.setTemplateFormats(["png"]);
+
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
