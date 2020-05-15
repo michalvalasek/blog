@@ -5,7 +5,7 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.setTemplateFormats(["png"]);
+  eleventyConfig.setTemplateFormats(["njk", "css", "png", "md"]);
 
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
@@ -21,4 +21,8 @@ module.exports = function(eleventyConfig) {
     let mdlib = markdownIt();
     return mdlib.renderInline(string);
   });
+
+  return {
+    markdownTemplateEngine: "njk"
+  }
 }
