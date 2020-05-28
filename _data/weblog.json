@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-05-28",
+    "title": "CLIs are reified UIs",
+    "url": "https://www.expressionsofchange.org/reification-of-interaction",
+    "comment": "Thoughts about the differences between CLIs and GUIs in relation to materiality of user interaction and it's consequences."
+  },
+  {
     "date": "2020-05-19",
     "title": "Ruby's Bitwise Toolbox: Operators, Applications and Magic Tricks",
     "url": "https://www.honeybadger.io/blog/ruby-bitwise-operators",
