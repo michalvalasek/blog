@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-08-05",
+    "title": "The State of Ruby 3 Typing",
+    "url": "https://developer.squareup.com/blog/the-state-of-ruby-3-typing/",
+    "comment": "Introducing RBS, Ruby’s new type signature language. What you can write using RBS, the key concepts of the design of RBS, and the benefits and tools that come with RBS."
+  },
+  {
     "date": "2020-07-29",
     "title": "Some SQL Tricks of an Application DBA",
     "url": "https://hakibenita.com/sql-tricks-application-dba",
