@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-08-24",
+    "title": "How Sidekiq really works",
+    "url": "https://pdabrowski.com/articles/how-sidekiq-really-works",
+    "comment": "Short end-to-end walkthrough of what happens behind the curtain when you call `perform_async` on your Sidekiq job until the moment it is executed."
+  },
+  {
     "date": "2020-08-05",
     "title": "The State of Ruby 3 Typing",
     "url": "https://developer.squareup.com/blog/the-state-of-ruby-3-typing/",
