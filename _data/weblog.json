@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-09-16",
+    "title": "Writing a Ractor-based web server",
+    "url": "https://kirshatrov.com/2020/09/08/ruby-ractor-web-server/",
+    "comment": "Also watch [this talk](https://youtu.be/2ZcdiVSERuY?t=476) from RubyKaigi about Ractors."
+  },
+  {
     "date": "2020-08-24",
     "title": "How Sidekiq really works",
     "url": "https://pdabrowski.com/articles/how-sidekiq-really-works",
