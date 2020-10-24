@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -69,6 +70,10 @@ main .container {
 
 .log-entry .comment {
   color: #555;
+  font-size: 1rem;
+  font-family: Insolata, monospace;
+}
+.log-entry .comment a {
   font-size: 1rem;
 }
 
