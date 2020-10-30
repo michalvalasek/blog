@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-10-30",
+    "title": "Rails Testing Antipatterns: Fixtures and Factories",
+    "url": "https://semaphoreci.com/blog/2014/01/14/rails-testing-antipatterns-fixtures-and-factories.html",
+    "comment": null
+  },
+  {
     "date": "2020-10-24",
     "title": "Changes in ruby 2.7",
     "url": "https://rubyreferences.github.io/rubychanges/2.7.html",
