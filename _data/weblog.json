@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-11-02",
+    "title": "How to Introduce Composite Primary Keys in Rails",
+    "url": "https://shopify.engineering/how-to-introduce-composite-primary-keys-in-rails",
+    "comment": "Use composite primary keys to speed up querying big databases."
+  },
+  {
     "date": "2020-10-30",
     "title": "Rails Testing Antipatterns: Fixtures and Factories",
     "url": "https://semaphoreci.com/blog/2014/01/14/rails-testing-antipatterns-fixtures-and-factories.html",
