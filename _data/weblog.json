@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-11-03",
+    "title": "Raspberry Pi 400",
+    "url": "https://www.raspberrypi.org/products/raspberry-pi-400/",
+    "comment": "Modern mini computer in keyboard form factor, in the style of my old Speccy is something i've been long waiting for!"
+  },
+  {
     "date": "2020-11-02",
     "title": "How to Introduce Composite Primary Keys in Rails",
     "url": "https://shopify.engineering/how-to-introduce-composite-primary-keys-in-rails",
