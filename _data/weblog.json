@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-11-23",
+    "title": "Data pipelines in Ruby on Rails",
+    "url": "https://coreym.info/data-pipelines-in-ruby-on-rails/",
+    "comment": "Nice example of gradually spliting big chunk of work into more and more granular jobs."
+  },
+  {
     "date": "2020-11-19",
     "title": "My Beef With RuboCop",
     "url": "https://www.rubypigeon.com/posts/my-beef-with-rubocop/",
