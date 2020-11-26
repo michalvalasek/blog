@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-11-27",
+    "title": "The Origin of the Shell",
+    "url": "https://multicians.org/shell.html",
+    "comment": "Interesting memory of Louis Pouzin who coined the term Shell (and came up with the idea) in the first half of the sixties."
+  },
+  {
     "date": "2020-11-23",
     "title": "Data pipelines in Ruby on Rails",
     "url": "https://coreym.info/data-pipelines-in-ruby-on-rails/",
