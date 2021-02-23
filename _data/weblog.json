@@ -1,5 +1,11 @@
 [
   {
+    "date": "2021-02-23",
+    "title": "What is a reduction and why Fibers are the answer for Ruby concurrency",
+    "url": "http://live.julik.nl/2021/02/why-reductions-are-important",
+    "comment": "Easy to digest, yet non-trivial explanation of different means of concurrency and parallelism we now have in Ruby, the differences between them and what to keep an eye on."
+  },
+  {
     "date": "2020-11-27",
     "title": "The Origin of the Shell",
     "url": "https://multicians.org/shell.html",
