@@ -1,5 +1,11 @@
 [
   {
+    "date": "2021-03-23",
+    "title": "Understanding and using Ruby's powerful #grep method",
+    "url": "https://docs.knapsackpro.com/2021/understanding-and-using-rubys-powerful-grep-method",
+    "comment": "Spoiler: it can do much more that what you probably thought."
+  },
+  {
     "date": "2021-02-23",
     "title": "What is a reduction and why Fibers are the answer for Ruby concurrency",
     "url": "http://live.julik.nl/2021/02/why-reductions-are-important",
