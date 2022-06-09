@@ -1,5 +1,11 @@
 [
   {
+    "date": "2022-06-09",
+    "title": "Implementing Equality in Ruby",
+    "url": "https://shopify.engineering/implementing-equality-in-ruby?utm_source=newsletter&utm_medium=email&utm_campaign=rubyforum_polymorphism_in_rails_event_streaming_in_rails_with_kafka_desktop_apps_and_more&utm_term=2022-06-09",
+    "comment": null
+  },
+  {
     "date": "2021-03-23",
     "title": "Understanding and using Ruby's powerful #grep method",
     "url": "https://docs.knapsackpro.com/2021/understanding-and-using-rubys-powerful-grep-method",
