@@ -1,5 +1,5 @@
 [
-  {
+ {
     "date": "2022-08-02",
     "title": "Scaling Sidekiq at Gusto",
     "url": "https://medium.com/gusto-engineering/scaling-sidekiq-at-gusto-3f9e3279e63",
@@ -369,7 +369,7 @@
     "date": "2019-05-03",
     "title": "How to use Bootstrap with Webpack & Rails",
     "url": "https://gorails.com/episodes/how-to-use-bootstrap-with-webpack-and-rails",
-    "comment": "*[VIDEO]* Brace yourselves, Rails 6 is coming!  Finally a nice short intro guide on how to use webpacker for JS and CSS instead of the Asset Pipeline."
+    "comment": "*[VIDEO]* Brace yourselves, Rails 6 is coming! Finally a nice short intro guide on how to use webpacker for JS and CSS instead of the Asset Pipeline."
   },
   {
     "date": "2019-05-03",
