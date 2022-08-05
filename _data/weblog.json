@@ -1,5 +1,11 @@
 [
- {
+  {
+    "date": "2022-08-05",
+    "title": "The difference between procs and lambdas in Ruby",
+    "url": "https://www.codewithjason.com/the-difference-between-procs-and-lambdas-in-ruby/",
+    "comment": "Includes nice short video with explanation."
+  },
+  {
     "date": "2022-08-02",
     "title": "Scaling Sidekiq at Gusto",
     "url": "https://medium.com/gusto-engineering/scaling-sidekiq-at-gusto-3f9e3279e63",
