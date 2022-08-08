@@ -1,5 +1,11 @@
 [
   {
+    "date": "2022-08-08",
+    "title": "Using Sorbet and Tapioca with Rails",
+    "url": "https://zachahn.com/posts/1659397378",
+    "comment": ""
+  },
+  {
     "date": "2022-08-05",
     "title": "The difference between procs and lambdas in Ruby",
     "url": "https://www.codewithjason.com/the-difference-between-procs-and-lambdas-in-ruby/",
