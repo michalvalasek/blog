@@ -1,6 +1,12 @@
 [
   {
     "date": "2022-08-08",
+    "title": "DORA Metrics: the Right Answer to measuring engineering team performance",
+    "url": "https://jacobian.org/2022/jun/17/dora-metrics/",
+    "comment": "“What metrics should I use to measure my engineering team’s performance?”"
+  },
+  {
+    "date": "2022-08-08",
     "title": "Using Sorbet and Tapioca with Rails",
     "url": "https://zachahn.com/posts/1659397378",
     "comment": ""
