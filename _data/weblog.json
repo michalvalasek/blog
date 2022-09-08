@@ -1,5 +1,11 @@
 [
   {
+    "date": "2022-09-08",
+    "title": "An Introduction to Ractors in Ruby",
+    "url": "https://blog.appsignal.com/2022/08/24/an-introduction-to-ractors-in-ruby.html",
+    "comment": "An excellent intro and explanation of basic concepts and usage of Ractors."
+  },
+  {
     "date": "2022-08-10",
     "title": "Sidekiq and Request-Specific Context",
     "url": "https://www.mikeperham.com/2022/07/29/sidekiq-and-request-specific-context/",
