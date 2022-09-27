@@ -1,5 +1,11 @@
 [
   {
+    "date": "2022-09-27",
+    "title": "4.2 Gigabytes, or: How to Draw Anything",
+    "url": "https://andys.page/posts/how-to-draw/",
+    "comment": "Andrew shows step-by-step how he used Stable Diffusion model (see the previous post) to iteratively create a nice post-apo 'painting' of Seattle."
+  },
+  {
     "date": "2022-09-26",
     "title": "Stable Diffusion is a really big deal",
     "url": "https://simonwillison.net/2022/Aug/29/stable-diffusion/",
