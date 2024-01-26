@@ -4,7 +4,7 @@ pageTitle: Articles Archive - Binary Barbarian
 topTitle: Articles Archive
 ---
 
-{% set posts = collections.posts | head(-10) | reverse %}
+{% set posts = collections.posts | reverse | head(10) %}
 {% for post in posts %}
   <div class="post-item mb-3">
     <p class="post-date mb-0">{{ post.data.publishedDate }}</p>
