@@ -6,7 +6,7 @@ pageTitle: Binary Barbarian
 <div class="top-article">
     <h2 class="text-center">My Latest Article</h2>
     {% set latest_post = collections.posts | last %}
-    <h3><a href="{{ post.url }}">{{ latest_post.data.pageTitle }}</a></h3>
+    <h3><a href="{{ latest_post.url }}">{{ latest_post.data.pageTitle }}</a></h3>
     <p class="text-right">Read all my posts in the <a href="/archive">Archive</a></p>
 </div>
 
